@@ -67,7 +67,7 @@
 
 #thread-line {
     width: 3px;
-    background: #b22222;
+    background: #021143;
     height: 0%; 
     position: relative;
     transition: height 0.1s linear;
@@ -83,10 +83,10 @@
 
 .v-thread {
     position: absolute;
-    width: 3px; /* كبرنا سمك الخيط */
+    width: 5px; /* كبرنا سمك الخيط */
     height: 150vh;
     top: -20vh;
-    opacity: 0.4; /* زوده لـ 0.6 لو عايز الألوان أوضح */
+    opacity: 0.6; /* زوده لـ 0.6 لو عايز الألوان أوضح */
     filter: blur(1px); /* تنعيم بسيط عشان يبان واقعي */
 }
 .circular-logo {
